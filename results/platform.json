@@ -1,0 +1,298 @@
+{
+  "phase": "platform",
+  "mode": "platform",
+  "users": 200,
+  "delay_ms": 500,
+  "controlled_errors": false,
+  "started_epoch": 1793796705.6533918,
+  "ended_epoch": 1793796775.675738,
+  "samples": [
+    {
+      "count": 390.0,
+      "monotonic": 25.1258038745,
+      "epoch": 1793796720.6674292,
+      "roundtrip_ms": 5.6950829999991015,
+      "metric": {
+        "name": "http.server.requests",
+        "baseUnit": "seconds",
+        "measurements": [
+          {
+            "statistic": "COUNT",
+            "value": 390.0
+          },
+          {
+            "statistic": "TOTAL_TIME",
+            "value": 1400.172655384
+          },
+          {
+            "statistic": "MAX",
+            "value": 6.536733709
+          }
+        ],
+        "availableTags": [
+          {
+            "tag": "exception",
+            "values": [
+              "none"
+            ]
+          },
+          {
+            "tag": "method",
+            "values": [
+              "GET"
+            ]
+          },
+          {
+            "tag": "application",
+            "values": [
+              "performance-metrics"
+            ]
+          },
+          {
+            "tag": "error",
+            "values": [
+              "none"
+            ]
+          },
+          {
+            "tag": "outcome",
+            "values": [
+              "SUCCESS"
+            ]
+          },
+          {
+            "tag": "status",
+            "values": [
+              "200"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "count": 710.0,
+      "monotonic": 35.130021583,
+      "epoch": 1793796730.671627,
+      "roundtrip_ms": 5.058333999997444,
+      "metric": {
+        "name": "http.server.requests",
+        "baseUnit": "seconds",
+        "measurements": [
+          {
+            "statistic": "COUNT",
+            "value": 710.0
+          },
+          {
+            "statistic": "TOTAL_TIME",
+            "value": 3414.393702175
+          },
+          {
+            "statistic": "MAX",
+            "value": 6.536733709
+          }
+        ],
+        "availableTags": [
+          {
+            "tag": "exception",
+            "values": [
+              "none"
+            ]
+          },
+          {
+            "tag": "method",
+            "values": [
+              "GET"
+            ]
+          },
+          {
+            "tag": "application",
+            "values": [
+              "performance-metrics"
+            ]
+          },
+          {
+            "tag": "error",
+            "values": [
+              "none"
+            ]
+          },
+          {
+            "tag": "outcome",
+            "values": [
+              "SUCCESS"
+            ]
+          },
+          {
+            "tag": "status",
+            "values": [
+              "200"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "count": 1030.0,
+      "monotonic": 45.136782083,
+      "epoch": 1793796740.678369,
+      "roundtrip_ms": 3.1919999999985293,
+      "metric": {
+        "name": "http.server.requests",
+        "baseUnit": "seconds",
+        "measurements": [
+          {
+            "statistic": "COUNT",
+            "value": 1030.0
+          },
+          {
+            "statistic": "TOTAL_TIME",
+            "value": 5427.768025975
+          },
+          {
+            "statistic": "MAX",
+            "value": 6.536733709
+          }
+        ],
+        "availableTags": [
+          {
+            "tag": "exception",
+            "values": [
+              "none"
+            ]
+          },
+          {
+            "tag": "method",
+            "values": [
+              "GET"
+            ]
+          },
+          {
+            "tag": "application",
+            "values": [
+              "performance-metrics"
+            ]
+          },
+          {
+            "tag": "error",
+            "values": [
+              "none"
+            ]
+          },
+          {
+            "tag": "outcome",
+            "values": [
+              "SUCCESS"
+            ]
+          },
+          {
+            "tag": "status",
+            "values": [
+              "200"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "count": 1348.0,
+      "monotonic": 55.142786833,
+      "epoch": 1793796750.6843557,
+      "roundtrip_ms": 1.7194160000002512,
+      "metric": {
+        "name": "http.server.requests",
+        "baseUnit": "seconds",
+        "measurements": [
+          {
+            "statistic": "COUNT",
+            "value": 1348.0
+          },
+          {
+            "statistic": "TOTAL_TIME",
+            "value": 7429.216170596
+          },
+          {
+            "statistic": "MAX",
+            "value": 6.536733709
+          }
+        ],
+        "availableTags": [
+          {
+            "tag": "exception",
+            "values": [
+              "none"
+            ]
+          },
+          {
+            "tag": "method",
+            "values": [
+              "GET"
+            ]
+          },
+          {
+            "tag": "application",
+            "values": [
+              "performance-metrics"
+            ]
+          },
+          {
+            "tag": "error",
+            "values": [
+              "none"
+            ]
+          },
+          {
+            "tag": "outcome",
+            "values": [
+              "SUCCESS"
+            ]
+          },
+          {
+            "tag": "status",
+            "values": [
+              "200"
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "windows": [
+    {
+      "count_before": 390.0,
+      "count_after": 710.0,
+      "elapsed_seconds": 10.0042177085,
+      "throughput": 31.986509022900876,
+      "from_epoch": 1793796720.6674292,
+      "to_epoch": 1793796730.671627
+    },
+    {
+      "count_before": 710.0,
+      "count_after": 1030.0,
+      "elapsed_seconds": 10.006760499999999,
+      "throughput": 31.978381015514465,
+      "from_epoch": 1793796730.671627,
+      "to_epoch": 1793796740.678369
+    },
+    {
+      "count_before": 1030.0,
+      "count_after": 1348.0,
+      "elapsed_seconds": 10.006004750000002,
+      "throughput": 31.780916354252174,
+      "from_epoch": 1793796740.678369,
+      "to_epoch": 1793796750.6843557
+    }
+  ],
+  "jmeter": {
+    "requests": 2088,
+    "errors": 0,
+    "error_percent": 0.0,
+    "mean_ms": 5804.935823754789,
+    "p95_ms": 6524.0,
+    "whole_run_rps": 31.647392273064852,
+    "start_epoch": 1793796708.261,
+    "end_epoch": 1793796774.238,
+    "response_codes": [
+      "200"
+    ]
+  }
+}

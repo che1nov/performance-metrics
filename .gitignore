@@ -1,0 +1,9 @@
+/target/
+/.tools/
+/.runtime/
+/.idea/
+*.iml
+.DS_Store
+__pycache__/
+results/*-jmeter.log
+results/*-console.txt

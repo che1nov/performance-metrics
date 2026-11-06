@@ -1,0 +1,25 @@
+{
+  "phase": "controlled-errors",
+  "mode": "virtual",
+  "users": 200,
+  "delay_ms": 500,
+  "controlled_errors": true,
+  "started_epoch": 1793796850.1290638,
+  "ended_epoch": 1793796887.559167,
+  "samples": [],
+  "windows": [],
+  "jmeter": {
+    "requests": 12972,
+    "errors": 1299,
+    "error_percent": 10.013876040703053,
+    "mean_ms": 504.9607616404564,
+    "p95_ms": 509.0,
+    "whole_run_rps": 367.91650121958133,
+    "start_epoch": 1793796850.868,
+    "end_epoch": 1793796886.126,
+    "response_codes": [
+      "200",
+      "503"
+    ]
+  }
+}

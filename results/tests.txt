@@ -1,0 +1,4 @@
+mvn verify — 2026-11-04
+Java 25.0.2, compiler release 21
+WorkApplicationTest: tests run 4, failures 0, errors 0, skipped 0
+BUILD SUCCESS
